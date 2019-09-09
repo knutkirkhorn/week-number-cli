@@ -6,6 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "week-number": "cli.js",
+    "week-number-cli": "cli.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "cli.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Knutakir/week-number-cli.git"
