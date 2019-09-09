@@ -1,0 +1,28 @@
+{
+  "name": "week-number-cli",
+  "version": "1.0.0",
+  "description": "📅 Get the ISO 8601 week number of a date CLI",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knutakir/week-number-cli.git"
+  },
+  "keywords": [
+    "week",
+    "number"
+  ],
+  "author": "Knut Kirkhorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Knutakir/week-number-cli/issues"
+  },
+  "homepage": "https://github.com/Knutakir/week-number-cli#readme",
+  "dependencies": {
+    "@knutkirkhorn/week-number": "^1.0.0",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {}
+}
