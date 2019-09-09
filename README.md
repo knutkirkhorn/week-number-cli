@@ -15,6 +15,7 @@ $ week-number --help
           $ week-number <date>
         Examples
           $ week-number
+          $ week-number "September 3, 2019"
           $ week-number "September 3, 2019 23:15:30"
 ```
 
