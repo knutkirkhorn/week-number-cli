@@ -4,7 +4,8 @@
   "description": "📅 Get the ISO 8601 week number of a date CLI",
   "main": "cli.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "lint": "eslint ."
   },
   "bin": {
     "week-number": "cli.js",
@@ -36,6 +37,9 @@
   },
   "devDependencies": {
     "ava": "^3.14.0",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
     "execa": "^5.0.0"
   }
 }
