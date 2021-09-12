@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Knutakir/week-number-cli.git"
+    "url": "git+https://github.com/knutkirkhorn/week-number-cli.git"
   },
   "keywords": [
     "week",
@@ -28,9 +28,9 @@
   "author": "Knut Kirkhorn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Knutakir/week-number-cli/issues"
+    "url": "https://github.com/knutkirkhorn/week-number-cli/issues"
   },
-  "homepage": "https://github.com/Knutakir/week-number-cli#readme",
+  "homepage": "https://github.com/knutkirkhorn/week-number-cli#readme",
   "dependencies": {
     "@knutkirkhorn/week-number": "^1.1.0",
     "meow": "^8.1.0"

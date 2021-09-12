@@ -1,4 +1,4 @@
-# week-number-cli [![Build Status](https://travis-ci.org/Knutakir/week-number-cli.svg?branch=main)](https://travis-ci.org/Knutakir/week-number-cli)
+# week-number-cli [![Build Status](https://travis-ci.org/knutkirkhorn/week-number-cli.svg?branch=main)](https://travis-ci.org/knutkirkhorn/week-number-cli)
 > 📅 Get the ISO 8601 week number of a date CLI
 
 ## Installation
@@ -20,7 +20,7 @@ $ week-number --help
 ```
 
 ## Related
-- [week-number](https://github.com/Knutakir/week-number) - API for this module
+- [week-number](https://github.com/knutkirkhorn/week-number) - API for this module
 
 ## License
 MIT © [Knut Kirkhorn](LICENSE)
