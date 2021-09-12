@@ -1,4 +1,4 @@
-# week-number-cli [![Build Status](https://travis-ci.org/knutkirkhorn/week-number-cli.svg?branch=main)](https://travis-ci.org/knutkirkhorn/week-number-cli)
+# week-number-cli
 > 📅 Get the ISO 8601 week number of a date CLI
 
 ## Installation
