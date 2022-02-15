@@ -8,8 +8,7 @@
     "lint": "eslint ."
   },
   "bin": {
-    "week-number": "cli.js",
-    "week-number-cli": "cli.js"
+    "week-number": "cli.js"
   },
   "engines": {
     "node": ">=8"
