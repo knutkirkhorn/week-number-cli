@@ -1,9 +1,7 @@
 #!/usr/bin/env node
 
-'use strict';
-
-const meow = require('meow');
-const weekNumber = require('@knutkirkhorn/week-number');
+import meow from 'meow';
+import weekNumber from '@knutkirkhorn/week-number';
 
 const cli = meow(`
         Usage
@@ -12,7 +10,9 @@ const cli = meow(`
         Examples
           $ week-number
           $ week-number "September 3, 2019 23:15:30"
-`);
+`, {
+    importMeta: import.meta
+});
 
 const inputDate = cli.input[0];
 
