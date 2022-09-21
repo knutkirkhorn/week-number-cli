@@ -7,7 +7,7 @@ npm install --global @knutkirkhorn/week-number-cli
 ```
 
 ## Usage
-```js
+```sh
 $ week-number --help
 
 	Usage
