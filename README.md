@@ -10,12 +10,12 @@ npm install --global @knutkirkhorn/week-number-cli
 ```js
 $ week-number --help
 
-        Usage
-          $ week-number
-          $ week-number <date>
-        Examples
-          $ week-number
-          $ week-number "September 3, 2019 23:15:30"
+	Usage
+	  $ week-number
+	  $ week-number <date>
+	Examples
+	  $ week-number
+	  $ week-number "September 3, 2019 23:15:30"
 ```
 
 ## Related

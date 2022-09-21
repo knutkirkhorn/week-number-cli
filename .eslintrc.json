@@ -12,7 +12,8 @@
         "sourceType": "module"
     },
     "rules": {
-        "indent": ["error", 4, {"SwitchCase": 1}],
+        "indent": ["error", "tab"],
+        "no-tabs": "off",
         "quotes": ["error", "single"],
         "semi": ["error", "always"],
         "linebreak-style": "off",
