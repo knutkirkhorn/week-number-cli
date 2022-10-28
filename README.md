@@ -15,10 +15,13 @@ $ week-number --help
 
   Usage
     $ week-number
-    $ week-number <date>
+    $ week-number "<date>"
+    $ week-number yesterday
+    $ week-number tomorrow
   Examples
     $ week-number
     $ week-number "September 3, 2019 23:15:30"
+    $ week-number yesterday
 ```
 
 ## Related
