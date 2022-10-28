@@ -16,8 +16,13 @@ const cli = meow(`
 
 const inputDate = cli.input[0];
 
-if (cli.input.length === 0) {
-	console.log(weekNumber());
-} else if (cli.input.length === 1) {
+try {
+	if (cli.input.length > 1) {
+		throw new Error("Command takes 0 or 1 argument.")
+	}
+
 	console.log(weekNumber(inputDate));
+}
+catch (e) {
+	console.error(e)
 }
