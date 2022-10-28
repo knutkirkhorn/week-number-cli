@@ -18,16 +18,15 @@ const inputDate = cli.input[0];
 
 try {
 	if (cli.input.length > 1) {
-		throw new Error("Command takes 0 or 1 argument.")
+		throw new Error('Command takes 0 or 1 argument.');
 	}
-	if (inputDate === "yesterday") {
+	if (inputDate === 'yesterday') {
 		console.log(yesterdayWeekNumber());
-	} else if (inputDate === "tomorrow") {
+	} else if (inputDate === 'tomorrow') {
 		console.log(tomorrowWeekNumber());
 	} else {
 		console.log(weekNumber(inputDate));
 	}
-}
-catch (e) {
-	console.error(e)
+} catch (error) {
+	console.error(error);
 }
