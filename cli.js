@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import meow from 'meow';
-import weekNumber from '@knutkirkhorn/week-number';
+import weekNumber, {tomorrowWeekNumber, yesterdayWeekNumber} from '@knutkirkhorn/week-number';
 
 const cli = meow(`
 	Usage
@@ -20,8 +20,13 @@ try {
 	if (cli.input.length > 1) {
 		throw new Error("Command takes 0 or 1 argument.")
 	}
-
-	console.log(weekNumber(inputDate));
+	if (inputDate === "yesterday") {
+		console.log(yesterdayWeekNumber());
+	} else if (inputDate === "tomorrow") {
+		console.log(tomorrowWeekNumber());
+	} else {
+		console.log(weekNumber(inputDate));
+	}
 }
 catch (e) {
 	console.error(e)
