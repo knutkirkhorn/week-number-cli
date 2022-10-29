@@ -6,10 +6,13 @@ import weekNumber, {tomorrowWeekNumber, yesterdayWeekNumber} from '@knutkirkhorn
 const cli = meow(`
 	Usage
 	  $ week-number
-	  $ week-number <date>
+	  $ week-number "<date>"
+	  $ week-number yesterday
+	  $ week-number tomorrow
 	Examples
 	  $ week-number
 	  $ week-number "September 3, 2019 23:15:30"
+	  $ week-number yesterday
 `, {
 	importMeta: import.meta
 });
