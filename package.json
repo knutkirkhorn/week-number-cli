@@ -1,6 +1,6 @@
 {
   "name": "@knutkirkhorn/week-number-cli",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "📅 Get the ISO 8601 week number of a date CLI",
   "main": "cli.js",
   "scripts": {
