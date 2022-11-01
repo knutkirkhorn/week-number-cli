@@ -24,7 +24,7 @@
   "author": "Knut Kirkhorn",
   "type": "module",
   "engines": {
-    "node": ">=14.16"
+    "node": ">=14.19"
   },
   "license": "MIT",
   "bugs": {
