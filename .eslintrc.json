@@ -13,6 +13,7 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-console": "off",
         "indent": ["error", "tab"],
         "no-tabs": "off",
         "quotes": ["error", "single"],
