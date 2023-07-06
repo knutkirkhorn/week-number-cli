@@ -2,6 +2,7 @@
 
 // eslint-disable-next-line import/no-unresolved
 import meow from 'meow';
+import logSymbols from 'log-symbols';
 import weekNumber, {tomorrowWeekNumber, yesterdayWeekNumber} from '@knutkirkhorn/week-number';
 
 const cli = meow(`
@@ -32,5 +33,7 @@ try {
 		console.log(weekNumber(inputDate));
 	}
 } catch (error) {
-	console.error(error);
+	console.log(`${logSymbols.error} ${error.message}`);
+	console.log('Use `week-number --help` to show valid input.');
+	process.exit(1);
 }

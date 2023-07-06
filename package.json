@@ -32,6 +32,7 @@
 	"homepage": "https://github.com/knutkirkhorn/week-number-cli#readme",
 	"dependencies": {
 		"@knutkirkhorn/week-number": "^2.1.1",
+		"log-symbols": "^5.1.0",
 		"meow": "^12.0.1"
 	},
 	"devDependencies": {
