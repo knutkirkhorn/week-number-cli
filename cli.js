@@ -33,7 +33,6 @@ try {
 		console.log(weekNumber(inputDate));
 	}
 } catch (error) {
-	console.log(`${logSymbols.error} ${error.message}`);
-	console.log('Use `week-number --help` to show valid input.');
-	process.exit(1);
+	console.error(`${logSymbols.error} ${error.message}`);
+	console.error('Use `week-number --help` to show valid input.');
 }
